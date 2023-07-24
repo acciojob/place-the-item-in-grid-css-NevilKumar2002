@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+	grid-template-rows:repeat(2,100px);
+	width:200px;
+	height:200px;
+	border:2px solid green;
+	
+}
+.grid-item-1{
+	
+	background-color:red;
+	
+}
+.grid-item-2{
+	background-color:yellow;
+}
+.grid-item-3{
+	background-color:aqua;
+}
+.grid-item-2{
+	background-color:purple;
+}
+
+
+
